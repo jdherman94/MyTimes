@@ -20,6 +20,7 @@ header {
   background-color: white;
   width: 100%;
   border: solid 1px black;
+  margin-left: -9px;
 }
 
 .logo {
@@ -45,8 +46,13 @@ nav {
 
 .nav {
   display: inline-block;
+  margin: auto 10px;
 }
 
+.navs {
+  position: relative;
+  left: -30px;
+}
 /*Main Container*/
 .maincontainer {
   display: flex;
@@ -155,4 +161,40 @@ color: black;
   color: DimGray;
   border-bottom: solid 1px black;
   padding: 12px;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px
+}
+
+.footer-div {
+  position: relative;
+  top: 150px;
+}
+.footer-name {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: solid white 2px;
+  padding-right: 10px;
+
+
+}
+.footer-link {
+  display: inline-block;
+  padding:10px;
+}
+
+.copyright {
+
 }
