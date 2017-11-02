@@ -25,6 +25,8 @@ header {
 
 .logo {
   color: MediumAquamarine;
+  position: relative;
+  right: -20px;
 }
 
 .logoname {
@@ -57,7 +59,9 @@ nav {
 .maincontainer {
   display: flex;
   margin-top: 80px;
-  width: 1350px;
+
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /*Columns*/
@@ -167,17 +171,18 @@ color: black;
 footer {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background-color: MediumAquamarine;
-  margin: auto;
+  margin: 0;
   font-family: Verdana;
   font-size: 12px;
-  height: 325px
+  height: 325px;
+  flex-direction: column;
 }
 
 .footer-div {
   position: relative;
-  top: 150px;
+  top: 0px;
 }
 .footer-name {
   display: inline-block;
@@ -186,15 +191,11 @@ footer {
   font-weight: bold;
   color: white;
   border-right: solid white 2px;
-  padding-right: 10px;
+  padding-right: 30px;
 
 
 }
 .footer-link {
   display: inline-block;
-  padding:10px;
-}
-
-.copyright {
-
+  padding-left:30px;
 }
